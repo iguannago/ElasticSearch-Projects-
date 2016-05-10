@@ -1,0 +1,14 @@
+[2016-05-10 18:35:23,950][INFO ][node                     ] [Crimson Commando] version[2.3.2], pid[26738], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-10 18:35:23,951][INFO ][node                     ] [Crimson Commando] initializing ...
+[2016-05-10 18:35:25,396][INFO ][plugins                  ] [Crimson Commando] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-10 18:35:25,540][INFO ][env                      ] [Crimson Commando] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [800.7gb], net total_space [930.4gb], spins? [unknown], types [hfs]
+[2016-05-10 18:35:25,540][INFO ][env                      ] [Crimson Commando] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-05-10 18:35:25,543][WARN ][env                      ] [Crimson Commando] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-05-10 18:35:30,454][INFO ][node                     ] [Crimson Commando] initialized
+[2016-05-10 18:35:30,454][INFO ][node                     ] [Crimson Commando] starting ...
+[2016-05-10 18:35:30,697][INFO ][transport                ] [Crimson Commando] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-10 18:35:30,721][INFO ][discovery                ] [Crimson Commando] elasticsearch/cMVmfDvbQNWpN5v5H6tbag
+[2016-05-10 18:35:33,764][INFO ][cluster.service          ] [Crimson Commando] new_master {Crimson Commando}{cMVmfDvbQNWpN5v5H6tbag}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-10 18:35:33,785][INFO ][http                     ] [Crimson Commando] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-05-10 18:35:33,786][INFO ][node                     ] [Crimson Commando] started
+[2016-05-10 18:35:33,816][INFO ][gateway                  ] [Crimson Commando] recovered [0] indices into cluster_state
